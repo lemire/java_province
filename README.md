@@ -172,16 +172,3 @@ Les données de salaire sont intégrées dans le code et utilisées pour la heat
 
 *Note : Les territoires sont affichés en gris et exclus du gradient de couleur.*
 
-## Notes
-
-- Le fichier GeoJSON est chargé depuis `src/main/resources/` (pas depuis Internet)
-- Les coordonnées sont en Web Mercator (EPSG:3857) et converties en projection équirectangulaire pour l'affichage
-- Google Gson remplace Jackson pour le parsing JSON (plus lightweight)
-- Support natif de MultiPolygon et Polygon du format GeoJSON
-- Les noms de provinces sont traduits automatiquement de l'anglais au français
-- La heatmap utilise uniquement les provinces (territoires en gris)
-- Plage de salaires : 52 800$ (PEI) à 69 300$ (Alberta)
-
-## Auteur
-
-- Code original avec modifications pour utiliser Gson
