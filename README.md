@@ -1,6 +1,6 @@
-# Canada Map Viewer
+# Carte du Canada
 
-Viewer JavaFX pour afficher les provinces et territoires du Canada avec une carte interactive.
+Visualisateur geojson en Java affichant les provinces et territoires du Canada avec une carte interactive.
 
 ## Prérequis
 
